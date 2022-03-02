@@ -22,7 +22,7 @@ public class HelloController {
     @ResponseBody
     public Hello helloworldJson() {
         Hello hello = new Hello();
-        hello.message = "안녕하세요!!!!!!!!!!!";
+        hello.message = "안녕하세요!!!!!dfdsfasdasdf!!!!!!";
         return hello;
     }
     /*
